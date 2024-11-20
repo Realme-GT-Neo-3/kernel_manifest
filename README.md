@@ -1,6 +1,6 @@
 ## Repo Init ##
 ```bash
-repo init -u https://github.com/cyberknight777/kernel_manifest.git -b cancunf
+repo init -u https://github.com/Realme-GT-Neo-3/kernel_manifest.git -b main
 ```
 ## Sync Source ##
 ```bash

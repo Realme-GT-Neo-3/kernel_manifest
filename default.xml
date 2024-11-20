@@ -3,7 +3,7 @@
   <remote name="aosp" 
           fetch="https://android.googlesource.com/" />
   <remote  name="github"
-    fetch="https://github.com/OnePlus-10R" />
+    fetch="https://github.com/Realme-GT-Neo-3" />
 
   <default revision="master-kernel-build-2021" remote="aosp" sync-j="4" />
 
@@ -17,11 +17,10 @@
   <project path="prebuilts-master/clang/host/linux-x86" name="platform/prebuilts/clang/host/linux-x86" clone-depth="1" remote="aosp" />
   <project path="prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.17-4.8" name="platform/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.17-4.8" clone-depth="1" remote="aosp" />
 
-  <project path="kernel-5.10" name="android_kernel_oneplus_mt6895" remote="github" revision="main" clone-depth="1" >
+  <project path="kernel-5.10" name="android_kernel_realme_mt6895" remote="github" revision="main" clone-depth="1" >
     <linkfile dest="build.config" src="build.config.oplus6895" />
   </project>
 
-  <!-- OSS modules soonTM !-->
-  <!-- <project path="vendor" name="android_kernel_modules_oneplus_mt6895" remote="github" revision="main" clone-depth="1" /> !-->
+  <project path="vendor" name="android_kernel_modules_realme_mt6895" remote="github" revision="main" clone-depth="1" />
 
 </manifest>
